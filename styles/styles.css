@@ -486,3 +486,61 @@ body{
   transform:scale(1.15);
   background:#ff00ff;
 }
+/* FOOTER */
+
+.footer{
+  height:300px;
+  background:
+  linear-gradient(rgba(20,0,50,0.85),rgba(20,0,50,0.85)),
+  url("images/wave-bg.png");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* CONTENT */
+
+.footer-content{
+  text-align:center;
+  color:white;
+}
+
+/* LOGO */
+
+.footer-content h1{
+  font-size:50px;
+  margin-bottom:15px;
+}
+
+.footer-content span{
+  background:linear-gradient(90deg,#ff00ff,#00ffff);
+  -webkit-background-clip: text;
+  color:transparent;
+}
+
+/* ICONS */
+
+.social-icons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin:15px 0;
+}
+
+.social-icons img{
+  width:32px;
+  transition:0.3s;
+}
+
+.social-icons img:hover{
+  transform:scale(1.2);
+}
+
+/* COPYRIGHT */
+
+.footer-content p{
+  font-size:13px;
+  color:#bdbdbd;
+}
