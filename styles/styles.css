@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #05051a;
+}
+
+/* NAVBAR */
+
+.navbar {
+  height: 70px;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg,#0a0220,#140032);
+}
+
+/* LOGO */
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  background: linear-gradient(45deg,#ff00ff,#ffcc00);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* MENU */
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.menu li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  color: white;
+}
+
+/* SUBSCRIBE BUTTON */
+
+.subscribe-btn {
+  padding: 10px 22px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(45deg,#ff00ff,#ffcc00);
+  box-shadow: 0 0 15px #ff00ff;
+}
